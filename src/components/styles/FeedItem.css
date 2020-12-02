@@ -1,0 +1,36 @@
+.post {
+  border: solid 2px grey;
+  margin-bottom: 2rem;
+  padding: 14px 20px;
+
+  position: relative;
+}
+
+.deleteBtn {
+  all: revert;
+
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  /* z-index: 100; */
+
+  border: none;
+  color: red;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+
+  float: right;
+}
+
+.deleteBtn:hover,
+.deleteBtn:focus {
+  background-color: red;
+  color: white;
+  outline-style: none;
+}
